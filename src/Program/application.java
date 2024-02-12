@@ -62,7 +62,10 @@ public class application {
 		System.out.println("Name: " + worker.getName());
 		System.out.println("Department: " + worker.getDepartment().getName());
 		System.out.println("Income for: " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
-		
+
+		//Desenvolvido por @JonasArcuri
+		//Linkedin: https://www.linkedin.com/in/jonas-arcuri-556457184/
+		//GitHub: https://github.com/JonasArcuri
 		sc.close();
 	}
 }
